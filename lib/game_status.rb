@@ -55,10 +55,10 @@ end
 def winner(board)
   winner = nil 
   WIN_COMBINATIONS.each do |token|
-    if combo.all? {|index| board[index] == "X"}
+    if token.all? {|index| board[index] == "X"}
       winner = "X"
       
-    elsif combo.all? {|index| board[index] == "O"}
+    elsif token.all? {|index| board[index] == "O"}
       winner = "O"
     end 
   winner 
