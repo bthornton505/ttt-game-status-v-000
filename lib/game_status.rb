@@ -57,6 +57,8 @@ def winner(board)
   WIN_COMBINATIONS.each do |token|
     if combo.all? {|index| board[index] == "X"}
       winner = "X"
+      
+    
   
 end 
 
