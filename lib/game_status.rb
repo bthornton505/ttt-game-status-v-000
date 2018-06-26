@@ -53,14 +53,12 @@ end
 
 
 def winner(board)
-  token_1 = "X"
-  token_2 = "O"
   
   if !won?(board) 
     return nil 
     
   elsif won?(board)
-    return token_1
+    return 
   end 
 end 
 
