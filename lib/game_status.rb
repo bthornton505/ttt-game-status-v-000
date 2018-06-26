@@ -54,7 +54,7 @@ end
 
 def winner(board)
   WIN_COMBINATIONS.each do |token|
-    if 
+    if combo.all? {|
   
 end 
 
