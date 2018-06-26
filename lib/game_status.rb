@@ -57,7 +57,10 @@ def winner(board)
     return nil 
     
   elsif over?(board)
-    return "X" || "O"
+    return "X" 
+    
+  elsif won?(board)
+    return "O"
   end 
 end 
 
