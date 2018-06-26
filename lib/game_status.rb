@@ -58,8 +58,10 @@ def winner(board)
     if combo.all? {|index| board[index] == "X"}
       winner = "X"
       
-    
-  
+    elsif combo.all? {|index| board[index] == "O"}
+      winner = "O"
+    end 
+  winner 
 end 
 
 
