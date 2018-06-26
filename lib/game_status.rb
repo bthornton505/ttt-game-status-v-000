@@ -63,6 +63,7 @@ def winner(board)
     end 
   winner 
 end 
+end 
 
 
 #if !won?(board) 
