@@ -59,11 +59,8 @@ def winner(board)
   if !won?(board) 
     return nil 
     
-  elsif won?(token_1)
+  elsif won?(board)
     return token_1
-    
-  elsif won?(token_2)
-    return token_2
   end 
 end 
 
