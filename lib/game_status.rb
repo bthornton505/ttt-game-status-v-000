@@ -61,8 +61,8 @@ def winner(board)
     elsif token.all? {|index| board[index] == "O"}
       winner = "O"
     end 
+  end 
   winner 
-end 
 end 
 
 
