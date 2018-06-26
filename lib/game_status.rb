@@ -13,7 +13,7 @@ def won?(board)
     index_2 = win_combo[1]
     index_3 = win_combo[2]
     
-    if position_taken?(board, index_1) && board[index_1] == board[index_2] && board[index_2] == board[index_3] 
+    if position_taken?(board, index) && board[index_1] == board[index_2] && board[index_2] == board[index_3] 
       return win_combo
     end 
   end 
