@@ -53,13 +53,9 @@ end
 
 
 def winner(board)
+  WIN_COMBINATIONS.each do |token|
+    if 
   
-  if !won?(board) 
-    return nil 
-    
-  elsif won?(board)
-    return 
-  end 
 end 
 
 
